@@ -37,7 +37,8 @@ int main(void)
     for(l_iter=my_list.begin(); l_iter!=my_list.end(); l_iter++)
     {
         if(*l_iter == 5)
-            *l_iter =100;
+            *l_iter = 100;
+
     } 
 
     // set 수정
