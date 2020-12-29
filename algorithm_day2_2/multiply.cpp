@@ -10,8 +10,8 @@ using namespace std;
 long long pow_mod(int a, int b, int c)
 {
     long long result;
-    if(b == 0)
-        return 1;
+    if(b == 1)
+        return a%c;
     
     result = pow_mod(a, b/2, c);
     result = result * result % c;
