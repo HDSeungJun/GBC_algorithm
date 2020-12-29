@@ -2,6 +2,7 @@
 문제출처: https://www.acmicpc.net/problem/1629
 문제정의: A B C가 주어질 때 A를 B번 곱한 수를 C로 나눈 나머지를 구하라.
 주의점: A B C 모두 int
+힌트: 분할정복 활용
 */
 #include <iostream>
 using namespace std;

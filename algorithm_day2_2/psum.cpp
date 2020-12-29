@@ -4,6 +4,7 @@
 주의점: 1 <= N <= 1024
     1 <= M <= 100000
     각 element <= 1000;
+힌트: 포함배제의 원리, prefix sum(partial sum) 활용 
 */
 #include <cstdio>
 using namespace std;
